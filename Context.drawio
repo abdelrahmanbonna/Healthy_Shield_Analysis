@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-09T09:27:48.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="yyCXwtErjmoJOO7e9Z5P" version="13.0.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-09T10:49:26.449Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="SesQmTVW0hG0aFRjWv4x" version="13.0.9" type="github">
   <diagram id="t-40IrdALzzYhq3jKnCi" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,6 +25,14 @@
         <mxCell id="WkDb-Qz1wxZT0FGAP73l-9" value="1.Register User" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WkDb-Qz1wxZT0FGAP73l-7">
           <mxGeometry x="0.0226" y="29" relative="1" as="geometry">
             <mxPoint x="29" y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WkDb-Qz1wxZT0FGAP73l-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.191;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WkDb-Qz1wxZT0FGAP73l-2" target="WkDb-Qz1wxZT0FGAP73l-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WkDb-Qz1wxZT0FGAP73l-23" value="8.Request Ambulance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WkDb-Qz1wxZT0FGAP73l-22">
+          <mxGeometry x="0.0389" y="32" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WkDb-Qz1wxZT0FGAP73l-2" value="User" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -75,6 +83,14 @@
         </mxCell>
         <mxCell id="WkDb-Qz1wxZT0FGAP73l-18" value="6.Users Reports" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WkDb-Qz1wxZT0FGAP73l-15">
           <mxGeometry x="-0.3214" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WkDb-Qz1wxZT0FGAP73l-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="WkDb-Qz1wxZT0FGAP73l-14" target="WkDb-Qz1wxZT0FGAP73l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WkDb-Qz1wxZT0FGAP73l-21" value="7.View Barcode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WkDb-Qz1wxZT0FGAP73l-19">
+          <mxGeometry x="-0.2267" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
