@@ -153,13 +153,13 @@
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">1056</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">16</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">73</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">70</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">1189</XPD:ATTR>
 <XPD:REF name="Model">BApdRFxk10Kc7ud6ql0ojwAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="oSr6fAzjjkSwtEkUPAK7IAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="7prL+rWyK0uMYH+n1e5YWgAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Medical Place</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Hospital</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="OhakIV5hFke0V2uQ6BT7YQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -824,7 +824,7 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">1092,888;97,888</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1091,888;97,888</XPD:ATTR>
 <XPD:REF name="Model">qWjpK0o/Rkul4gd/kAAs0gAA</XPD:REF>
 <XPD:REF name="Head">N1YCYrQR5k+kinc2uRaIDwAA</XPD:REF>
 <XPD:REF name="Tail">09e8fsDDS0K7Jvua+b1IAQAA</XPD:REF>
@@ -860,7 +860,7 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">91,932;1085,932</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">91,932;1084,932</XPD:ATTR>
 <XPD:REF name="Model">UZRIOTXD2kCIvLm6JXrT/wAA</XPD:REF>
 <XPD:REF name="Head">09e8fsDDS0K7Jvua+b1IAQAA</XPD:REF>
 <XPD:REF name="Tail">N1YCYrQR5k+kinc2uRaIDwAA</XPD:REF>
@@ -886,7 +886,7 @@
 <XPD:REF name="HostEdge">HnpIpd7k70u7vjOUoXxCDQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Activation" type="UMLActivationView" guid="o+vKBn91tkefdsY93z9ONwAA">
-<XPD:ATTR name="Left" type="integer">1085</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1084</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">932</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">14</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
@@ -896,7 +896,7 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">1092,984;97,984</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1091,984;97,984</XPD:ATTR>
 <XPD:REF name="Model">j919f8Ps6Eu/3phWmWPkMgAA</XPD:REF>
 <XPD:REF name="Head">N1YCYrQR5k+kinc2uRaIDwAA</XPD:REF>
 <XPD:REF name="Tail">09e8fsDDS0K7Jvua+b1IAQAA</XPD:REF>
@@ -1004,7 +1004,7 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">91,1131;1085,1131</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">91,1131;1084,1131</XPD:ATTR>
 <XPD:REF name="Model">fvdAbjg0PUiDXbFU3scxxwAA</XPD:REF>
 <XPD:REF name="Head">09e8fsDDS0K7Jvua+b1IAQAA</XPD:REF>
 <XPD:REF name="Tail">N1YCYrQR5k+kinc2uRaIDwAA</XPD:REF>
@@ -1030,7 +1030,7 @@
 <XPD:REF name="HostEdge">sO5PqcjOJ02lBD9ykgFhfAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Activation" type="UMLActivationView" guid="7lt1NoXbsU6584XKsaAR1AAA">
-<XPD:ATTR name="Left" type="integer">1085</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1084</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">1131</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">14</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
@@ -1467,7 +1467,7 @@
 <XPD:REF name="ReceivingStimuli[0]">KoeW/R3xZESTY6G3s7/+UwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingInstances[5]" type="UMLObject" guid="BApdRFxk10Kc7ud6ql0ojwAA">
-<XPD:ATTR name="Name" type="string">Medical Place</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Hospital</XPD:ATTR>
 <XPD:REF name="CollaborationInstanceSet">0FGmY6Bkukmoma9QRNaVHQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">Iwz6NpzK30qEpJfCFDgFfgAA</XPD:REF>
@@ -3649,7 +3649,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="wDGhZLhDz0G3hNd0Nisf0gAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="xIQoJgiM60iUn0RWaOzz/wAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Medical Place</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Medical Places</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="T9Mbm3Dc+0qJRftmj2qZrgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -4416,7 +4416,7 @@
 </XPD:OBJ>
 <XPD:ATTR name="#ParticipatingInstances" type="integer">3</XPD:ATTR>
 <XPD:OBJ name="ParticipatingInstances[0]" type="UMLObject" guid="ASTehJLGbUSZE+sOIXv2XQAA">
-<XPD:ATTR name="Name" type="string">Medical Place</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Medical Places</XPD:ATTR>
 <XPD:REF name="CollaborationInstanceSet">rQKJpKUUUEeG22KUSSoiMAAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">oTcCDCSHUUW9LAg9io9/qgAA</XPD:REF>
