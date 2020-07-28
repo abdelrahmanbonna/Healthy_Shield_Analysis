@@ -1,0 +1,71 @@
+@relation healthinsurance
+
+@attribute age  {n<60,n>=60}
+@attribute gender {male,female}
+@attribute job {none,student,privatework,govwork}
+@attribute monthlyincome {n<15000,n>=15000}
+@attribute mirtialstatus {single,married}
+@attribute cutoffarm {yes,no}
+@attribute cutofflrg {yes,no}
+@attribute dangerousdisese {yes,no}
+@attribute noofdependencies {0,1,2,3,4,=>5}
+@attribute mobilefees {f>=800,f<800}
+@attribute carmodel {none,model>=2013,model<2013}
+@attribute noofcars {0,1,2,n>=3}
+@attribute percentage {100,80,60,40,0}
+
+@data
+n>=60,male,none,n<15000,single,no,no,no,0,f<800,none,0,100
+n>=60,female,none,n<15000,single,no,no,no,0,f<800,none,0,100
+n>=60,male,none,n<15000,single,no,no,no,1,f<800,model<2013,1,100
+n>=60,female,none,n<15000,single,no,no,no,1,f<800,model<2013,1,100
+n<60,female,student,n<15000,single,no,no,no,0,f<800,none,0,100
+n<60,male,student,n<15000,single,no,no,no,0,f<800,none,0,100
+n<60,male,none,n<15000,married,yes,no,no,2,f<800,none,0,100
+n<60,female,none,n<15000,married,yes,no,no,2,f<800,none,0,100
+n<60,male,privatework,n<15000,married,no,no,no,1,f<800,model<2013,1,80
+n<60,female,privatework,n<15000,married,no,no,no,1,f<800,model<2013,1,80
+n<60,female,govwork,n<15000,single,no,no,no,2,f<800,none,0,80
+n<60,male,govwork,n<15000,single,no,no,no,2,f<800,none,0,80
+n<60,male,govwork,n<15000,married,no,no,no,3,f<800,none,0,80
+n<60,female,govwork,n<15000,married,no,no,no,3,f<800,none,0,80
+n<60,male,privatework,n<15000,married,no,no,yes,3,f<800,model<2013,1,60
+n<60,female,privatework,n<15000,married,no,no,yes,3,f<800,model<2013,1,60
+n<60,male,privatework,n<15000,married,no,yes,no,4,f<800,model<2013,1,60
+n<60,female,privatework,n<15000,married,no,yes,no,4,f<800,model<2013,1,60
+n<60,male,govwork,n<15000,married,no,no,no,=>5,f<800,model<2013,1,60
+n<60,female,govwork,n<15000,married,no,no,no,=>5,f<800,model<2013,1,60
+n<60,male,govwork,n<15000,single,no,no,no,0,f<800,model<2013,2,40
+n<60,female,govwork,n<15000,single,no,no,no,0,f<800,model<2013,2,40
+n<60,male,privatework,n<15000,married,no,no,no,1,f<800,model<2013,2,40
+n<60,female,privatework,n<15000,married,no,no,no,1,f<800,model<2013,2,40
+n<60,male,privatework,n<15000,single,no,no,no,1,f<800,model<2013,1,40
+n<60,female,privatework,n<15000,single,no,no,no,1,f<800,model<2013,1,40
+n<60,male,privatework,n<15000,single,no,no,no,0,f>=800,none,0,0
+n<60,female,privatework,n<15000,single,no,no,no,0,f>=800,none,0,0
+n<60,male,privatework,n<15000,single,no,no,no,0,f<800,model>=2013,1,0
+n<60,female,privatework,n<15000,single,no,no,no,0,f<800,model>=2013,1,0
+n<60,male,privatework,n>=15000,single,no,no,no,0,f<800,model<2013,n>=3,0
+n<60,female,privatework,n>=15000,single,no,no,no,0,f<800,model<2013,n>=3,0
+n<60,male,privatework,n>=15000,single,no,no,no,0,f<800,none,0,0
+n<60,female,privatework,n>=15000,single,no,no,no,0,f<800,none,0,0
+n>=60,male,none,n>=15000,married,no,no,no,2,f<800,model<2013,1,0
+n>=60,female,none,n>=15000,married,no,no,no,2,f<800,model<2013,1,0
+n<60,male,govwork,n<15000,married,no,no,yes,=>5,f>=800,model>=2013,1,0
+n<60,male,govwork,n>=15000,married,no,no,no,3,f>=800,model>=2013,2,0
+n<60,male,privatework,n>=15000,married,no,no,no,4,f>=800,model>=2013,2,0
+n<60,male,govwork,n>=15000,married,no,no,yes,4,f<800,model>=2013,1,40
+n<60,male,privatework,n<15000,married,no,no,yes,2,f<800,model>=2013,1,60
+n<60,male,govwork,n>=15000,married,no,no,no,3,f>=800,model>=2013,1,0
+n<60,male,govwork,n<15000,married,no,no,no,1,f<800,none,0,80
+n<60,male,govwork,n>=15000,married,no,no,no,4,f>=800,model>=2013,2,0
+n<60,male,govwork,n>=15000,married,no,no,no,2,f>=800,model>=2013,1,0
+n<60,male,govwork,n>=15000,married,no,no,no,0,f>=800,model>=2013,1,0
+n<60,male,govwork,n>=15000,married,no,no,no,1,f>=800,model>=2013,1,0
+n<60,male,privatework,n>=15000,married,no,no,no,2,f>=800,model>=2013,n>=3,0
+n<60,male,privatework,n>=15000,married,no,no,no,=>5,f>=800,model>=2013,n>=3,0
+n<60,male,govwork,n>=15000,married,no,no,yes,=>5,f>=800,model>=2013,n>=3,0
+
+
+
+
